@@ -186,7 +186,7 @@ input[type=submit] {
 .search-results .site-main, .block-numbers, .block-imagecontents-content, .block-imagecontents,
 .block-contentsimage, #footer-widget-1 .module-header, .footer-widgets-block:not(:first-child), #secondary, .custom-posts-pagination, .posts-navigation,
 .post-navigation, .alignwide,
-.is-style-wide {
+.is-style-wide #wcb_sponsors-2 {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -199,7 +199,7 @@ input[type=submit] {
 				.search-results .site-main, .block-numbers, .block-imagecontents-content, .block-imagecontents,
 				.block-contentsimage, #footer-widget-1 .module-header, .footer-widgets-block:not(:first-child), #secondary, .custom-posts-pagination, .posts-navigation,
 				.post-navigation, .alignwide,
-				.is-style-wide {
+				.is-style-wide #wcb_sponsors-2{
 		max-width: 1200px;
 	}
 }
