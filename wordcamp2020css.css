@@ -7491,3 +7491,54 @@ div[class^=wcorg-sponsor-level-] h4:before, div[class^=wcorg-sponsor-level-] h5:
 iframe.streamtext {
 	resize: vertical;
 }
+
+
+/* Breann McDede's Edits */
+h2 {
+	margin-top: 5rem;
+}
+
+.hide {
+	display: none;
+}
+
+.jetpack_widget_social_icons ul.size-medium a {
+	height: 32px;
+	width: 32px;
+	color: #fff7f7;
+}
+
+.page-content, .entry-content, .entry-summary {
+	text-align: center;
+}
+
+body.page-id-10.custom-background {
+	background-image: none;
+}
+
+body.page-id-518.custom-background {
+	background-image: none;
+}
+
+body.page-id-19.custom-background {
+	background-image: none;
+}
+
+/* Madison Sadler's Edits to the Mobile Menu */
+@media only screen and (max-width: 600px) {
+	.main-navigation .menu .menu-item a {
+		padding-right: 5px;
+	}
+	.main-navigation .menu .menu-item a {
+		background: #233353;
+	}
+}
+
+/* Madison Sadler's Edits to the Attendees Page */
+a[href$=".png"].tix-attendee-url,
+a[href$=".jpg"].tix-attendee-url,
+a[href$=".jpeg"].tix-attendee-url,
+a[href$=".gif"].tix-attendee-url,
+a[href$=".png?dl=0"].tix-attendee-url{
+	display: none !important;
+}
